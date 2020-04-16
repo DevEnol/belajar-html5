@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Belajar HTML5 - Contoh Membuat Tampilan Input</title>
+  </head>
+  
+  <body>
+    <h2>Formulir Pendaftaran Peserta</h2>
+    <form action="daftar.php" method="POST">
+      <div>
+        <label for="nama">Nama Lengkap</label>
+        <input id="nama" type="text" placeholder="Ketik nama lengkap">
+      </div>
+      <br>
+      <div>
+        <label for="email">Alamat Email</label>
+        <input id="email" type="email" placeholder="Ketik alamat email">
+      </div>
+      <br>
+      <div>
+        <label for="tanggal">Tanggal Partisipasi</label>
+        <input id="tanggal" type="date">
+      </div>
+      <br>
+      <div>
+        <label for="partisipasi">Jenis Partisipasi</label>
+        <select id="partisipasi">
+          <option value="paruh">Paruh Waktu</option>
+          <option value="kontrak">Kontrak</option>
+          <option value="permanen">Permanen</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="keterangan">Keterangan</label>
+        <textarea id="keterangan" placeholder="Ketik keterangan di sini"></textarea>
+      </div>
+      <br>
+      <div>
+        <input id="submit" type="submit" value="Daftar">
+      </div>
+    </form>
+    
+    <br>
+    <a href="../index.html">Halaman Utama</a>
+  </body>
+  
+</html>
